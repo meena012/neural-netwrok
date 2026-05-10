@@ -52,8 +52,4 @@ for i in range(10):
 
     print(f"{i}   |  {ord(str(i))}   |   {pred}")
 
-for i in range(10):
-    x = ord(str(i)) / 100.0
-    net = x * weight + bias
-    pred = step(net)
-    print(f"  {i}   |  {ord(str(i))}   |      {pred}")
+
